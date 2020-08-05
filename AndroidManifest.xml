@@ -87,6 +87,7 @@
         <activity-alias
             android:name=".PrivacySettings"
             android:label="@string/privacy_settings_title"
+            android:enabled="false"
             android:targetActivity="PartsActivity">
             <intent-filter android:priority="1">
                 <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
@@ -111,6 +112,7 @@
         <activity-alias
             android:name=".input.ButtonSettings"
             android:label="@string/button_pref_title"
+            android:enabled="false"
             android:targetActivity="PartsActivity">
             <intent-filter android:priority="1">
                 <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
@@ -135,6 +137,7 @@
         <activity-alias
             android:name=".profiles.ProfilesSettings"
             android:label="@string/profiles_settings_title"
+            android:enabled="false"
             android:targetActivity="PartsActivity">
             <intent-filter android:priority="1">
                 <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
@@ -159,6 +162,7 @@
         <activity-alias
             android:name=".statusbar.StatusBarSettings"
             android:label="@string/status_bar_title"
+            android:enabled="false"
             android:targetActivity="PartsActivity">
             <intent-filter android:priority="1">
                 <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
